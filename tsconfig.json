@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "lib": ["es6", "esnext", "dom"],
+    "rootDir": "./src",
+    "outDir": "./build",
+    // "strict": true,
+    // "strictNullChecks": true,
+    "esModuleInterop": true,
+    // "forceConsistentCasingInFileNames": true,
+    // "declaration": true
+  },
+  "include": ["./src/**/*"],
+  // "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true
+  }
+}
